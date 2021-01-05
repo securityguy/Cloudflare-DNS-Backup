@@ -1,6 +1,8 @@
 # Cloudflare-DNS-Backup
 
-This utility accepts a directory and Cloudflare token on the command line.
+This utility accepts a directory and Cloudflare token on the command line:
+
+    Cloudflare-DNS-Backup <directory> <token>
 
 Using this information, it queries the Cloudflare API, obtains a list of
 zones, and exports DNS records for each zone to the specified directory.
