@@ -7,8 +7,7 @@ This utility accepts a directory and Cloudflare token on the command line:
 Using this information, it queries the Cloudflare API, obtains a list of
 zones, and exports DNS records for each zone to a separate file in the specified directory.
 
-Cloudflare "Export DNS Records" is used because records to facilitate
-re-importing them using the API.
+Cloudflare "Export DNS Records" is used to facilitate re-importing them using the API.
 
 Importation has not yet been tested.
 
